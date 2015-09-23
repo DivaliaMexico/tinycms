@@ -35,3 +35,7 @@ Genera sitios dinamicos de forma rapida utilizando comparaciones flexibles. En u
 │               └── default.tpl
 └── robots.txt
 ```
+
+[Uso de Divalia Tiny CMS](https://github.com/DivaliaMexico/tinycms/wiki)
+
+Un proyecto de [Divalia S.A de C.V](https://www.divalia.mx)
