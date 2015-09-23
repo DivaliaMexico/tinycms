@@ -25,5 +25,7 @@
           $this->debug = false;
           $this->debugging = false;
           $this->caching = false;
+          /* Solo dejar habilitado en la rama devel de git */
+          $this->clearCompiledTemplate();
       }
   }
