@@ -30,7 +30,7 @@ if(!in_array($Path[0], $allowed))
 switch($Path[0])
 {
       default:
-	$tpl->assign('title', 'Dealers Will Hear Car Talk at Noon.');
-        $tpl->display('index.tpl');
+				$tpl->assign('title', 'Dealers Will Hear Car Talk at Noon.');
+				$tpl->display('index.tpl');
       break;
 }
