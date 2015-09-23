@@ -33,7 +33,7 @@
     </aside>
 
     <footer>
-      <p>Hecho con <span>❤</span> por un grupo de geeks en México.</p>
+      <p>Hecho con <span>❤</span> por <a href="https://www.divalia.mx/" target="_blank">Divalia S.A de C.V</a> en México.</p>
     </footer>
 
   </body>

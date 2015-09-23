@@ -19,7 +19,7 @@
 	$this->config_dir		= $PATH.'/resources/templates/config/';
 	$this->compile_dir		= $PATH.'/resources/templates/compiled/';
 	$this->cache_dir		= $PATH.'/resources/templates/cache/';
-	$this->compile_check		= false;
+	$this->compile_check		= true;
 	$this->cache_modified_check	= false;
         $this->debug			= false;
         $this->debugging		= false;
