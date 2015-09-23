@@ -7,13 +7,17 @@
  * @package Routing Engine Module
  */
 
-Class RoutingEngine {
+Class RoutingEngine
+{
 
-	public function Route(){
+	public function Route()
+	{
 		$requestURI = explode('/', $_SERVER['REQUEST_URI']);
 		$scriptName = explode('/',$_SERVER['SCRIPT_NAME']);
-		for($i= 0;$i < sizeof($scriptName);$i++){
-			if ($requestURI[$i] == $scriptName[$i]){
+		for($i= 0;$i < sizeof($scriptName);$i++)
+		{
+			if ($requestURI[$i] == $scriptName[$i])
+			{
 				unset($requestURI[$i]);
 			}
 		}

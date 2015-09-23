@@ -18,7 +18,8 @@ $Path = $routes->Route();
 $allowed = array(NULL);
 
 /* Este breve chequeo verifica si un modulo esta permitido o no en $allowd y en el caso contrario mostrara una pagina de error. */
-if(!in_array($Path[0], $allowed)){
+if(!in_array($Path[0], $allowed))
+{
 	header("HTTP/1.0 404 Not Found");
 	$tpl->display('errors/404.tpl');
 	die();
@@ -26,7 +27,8 @@ if(!in_array($Path[0], $allowed)){
 
 /* Agregamos aqui las secciones que nos hagan falta pero siempre dejamos default como inicio. */
 
-switch($Path[0]){
+switch($Path[0])
+{
       default:
 				$tpl->assign('title', 'Dealers Will Hear Car Talk at Noon.');
         $tpl->display('index.tpl');
