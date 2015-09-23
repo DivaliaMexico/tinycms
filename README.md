@@ -3,6 +3,8 @@
 Este pequeño CMS utiliza Smarty y PHP clasico, con algun patron MVC por asi decirlo.
 Genera sitios dinamicos de forma rapida utilizando comparaciones flexibles. En un mundo dominado por composer y grandes monstruos nos olvidamos de un principio simple, KISS.
 
+Demo: http://code.divalia.mx/
+
 ## Estructura
 ```
 ├── index.php
