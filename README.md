@@ -4,7 +4,7 @@ Este pequeño CMS utiliza Smarty y PHP clasico, con algun patron MVC por asi dec
 Genera sitios dinamicos de forma rapida utilizando comparaciones flexibles. En un mundo dominado por composer y grandes monstruos nos olvidamos de un principio simple, KISS.
 
 ## Estructura
-
+```
 ├── index.php
 ├── library
 │   ├── divalia
@@ -34,3 +34,4 @@ Genera sitios dinamicos de forma rapida utilizando comparaciones flexibles. En u
 │           └── layouts
 │               └── default.tpl
 └── robots.txt
+```
