@@ -9,18 +9,21 @@ class TinyEngine
         $this->itemPath = $itemPath;
     }
 
-    public function fetchFilenamesInDirectory()
+    function fetchFilenamesInDirectory()
     {
-        // Set sorting order for scandir()
-        $sorting_order = SCANDIR_SORT_ASCENDING;
-        // Scan all files in directory
-        $directory = scandir($this->itemPath,1);
-        // Only keep files with .md extension
-        return array_filter($directory, function($data)
+        $ignored = array('.', '..', '.svn', '.htaccess');
+
+        $files = array();
+        foreach (scandir($this->itemPath) as $file)
         {
-            return substr($data,-3) == ".md" ? true : false;
+            if (in_array($file, $ignored)) continue;
+            $files[$file] = filemtime($this->itemPath . '/' . $file);
         }
-        );
+
+        arsort($files);
+        $files = array_keys($files);
+
+        return ($files) ? $files : false;
     }
 
     public function fetchFileContents($filename)
@@ -54,7 +57,7 @@ class TinyEngine
         {
             $item["tags"] = array();
         }
-        
+
         // Format content using Markdown library
         $item["content"] = Markdown($content);
         return $item;

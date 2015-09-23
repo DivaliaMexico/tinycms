@@ -10,10 +10,7 @@
         <article>
             <header>
                 <h3><a href="/blog/{$entry|replace:".md":""|replace:" ":"-"|escape}">{$entry|replace:".md":""}</a></h3>
-                <p>(Etiquetas, )</p>
             </header>
-            <p>This is the story text. This is the story text.</p>
-            <p>This is the story text. This is the story text.</p>
         </article>
         {/foreach}
 </main>
