@@ -15,7 +15,8 @@
 
     <nav>
         <ul>
-            <li><a href="/">Inicio</a></li>
+            <li class="menu"><a href="/">Inicio</a></li>
+            <li class="menu"><a href="/blog">Blog</a></li>
         </ul>
     </nav>
 
