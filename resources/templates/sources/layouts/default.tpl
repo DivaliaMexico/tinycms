@@ -33,7 +33,7 @@
     </aside>
 
     <footer>
-      <p>Footer Information</p>
+      <p>Hecho con <span>❤</span> por un grupo de geeks en México.</p>
     </footer>
 
   </body>
