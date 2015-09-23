@@ -8,14 +8,12 @@
   <body>
     <header class="banner">
       <h1>Tiny CMS</h1>
-      <p>Local and National News</p>
+      <p>Tiny micro small shitty CMS!</p>
     </header>
 
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="archive.html">Archives</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="/">Inicio</a></li>
       </ul>
     </nav>
 
