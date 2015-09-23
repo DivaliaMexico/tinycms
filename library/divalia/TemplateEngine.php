@@ -14,15 +14,15 @@
     function __construct()
     {
         parent::__construct();
-        $PATH                          = $_SERVER['DOCUMENT_ROOT'];
-    		$this->template_dir			       = $PATH.'/resources/templates/sources/';
-    		$this->config_dir	  		       = $PATH.'/resources/templates/config/';
-    		$this->compile_dir	   		     = $PATH.'/resources/templates/compiled/';
-    		$this->cache_dir	   		       = $PATH.'/resources/templates/cache/';
-    		$this->compile_check 		       = false;
-    		$this->cache_modified_check    = false;
-        $this->debug     			         = false;
-        $this->debugging               = false;
-    		$this->caching 				         = false;
-    	}
+        $PATH				= $_SERVER['DOCUMENT_ROOT'];
+	$this->template_dir		= $PATH.'/resources/templates/sources/';
+	$this->config_dir		= $PATH.'/resources/templates/config/';
+	$this->compile_dir		= $PATH.'/resources/templates/compiled/';
+	$this->cache_dir		= $PATH.'/resources/templates/cache/';
+	$this->compile_check		= false;
+	$this->cache_modified_check	= false;
+        $this->debug			= false;
+        $this->debugging		= false;
+	$this->caching 			= false;
+	}
   }
