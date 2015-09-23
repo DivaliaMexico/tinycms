@@ -20,7 +20,6 @@
     </nav>
 
     {block name=content}{/block}
-
     <aside>
         <h2>Recursos</h2>
             <ul>
