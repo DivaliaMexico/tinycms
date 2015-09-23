@@ -6,16 +6,21 @@ Genera sitios dinamicos de forma rapida utilizando comparaciones flexibles. En u
 Demo: http://code.divalia.mx/
 
 ## Estructura
-```
+```.
 ├── index.php
 ├── library
+│   ├── blog
+│   │   ├── markdown.php
+│   │   └── tinyengine.php
 │   ├── divalia
 │   │   ├── Init.php
 │   │   ├── RoutingEngine.php
 │   │   └── TemplateEngine.php
 │   └── smarty
+│       ├── Autoloader.php
 │       ├── debug.tpl
 │       ├── plugins
+│       ├── SmartyBC.class.php
 │       ├── Smarty.class.php
 │       └── sysplugins
 ├── LICENSE
@@ -30,12 +35,19 @@ Demo: http://code.divalia.mx/
 │       ├── compiled
 │       ├── config
 │       └── sources
+│           ├── blog
+│           │   ├── list.tpl
+│           │   └── read.tpl
 │           ├── errors
 │           │   └── 404.tpl
 │           ├── index.tpl
 │           └── layouts
 │               └── default.tpl
-└── robots.txt
+├── robots.txt
+└── storage
+    ├── Donec consequat, nulla nec dictum condimentum.md
+    └── Hola Mundo.md
+
 ```
 
 [Uso de Divalia Tiny CMS](https://github.com/DivaliaMexico/tinycms/wiki)
