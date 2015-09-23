@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>{$title|default:'Default Page Title'}</title>
+    <title>{$title|default:'Tiny CMS'}</title>
     {block name=header}{/block}
   </head>
   <body>
     <header class="banner">
-      <h1>News</h1>
+      <h1>Tiny CMS</h1>
       <p>Local and National News</p>
     </header>
 
