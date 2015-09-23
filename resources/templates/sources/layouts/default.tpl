@@ -22,16 +22,19 @@
     {block name=content}{/block}
 
     <aside>
-        <h2>Search</h2>
-        <form>
-            <input name="q" placeholder="Go to a Website">
-            <input type="submit" value="Search">
-        </form>
+        <h2>Recursos</h2>
+            <ul>
+                <li><a href="https://github.com/DivaliaMexico/tinycms">Github</a></li>
+                <li><a href="https://github.com/DivaliaMexico/tinycms/releases">Descargar</a></li>
+                <li><a href="https://github.com/DivaliaMexico/tinycms/wiki">Documentación</a></li>
+            </ul>
     </aside>
 
     <aside>
-        <h2>Be a news reporter</h2>
-        <p>If you see news happening - Send us a Text.</p>
+        <h2>Patrocinador</h2>
+        <p>
+            <a href="https://www.divalia.mx/" target="_blank">Divalia S.A de C.V</a>
+        </p>
     </aside>
 
     <footer>
