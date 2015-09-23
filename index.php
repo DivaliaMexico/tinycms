@@ -29,8 +29,8 @@ if(!in_array($Path[0], $allowed))
 
 switch($Path[0])
 {
-  default:
+	default:
 	$tpl->assign('title', 'Tiny CMS');
 	$tpl->display('index.tpl');
-  break;
+	break;
 }
